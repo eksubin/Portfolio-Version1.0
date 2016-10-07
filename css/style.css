@@ -10,9 +10,9 @@
 * { margin: 0; padding: 0; }
 
 html { height: 100%; font-size: 62.5% }
-
 body {
 height: 100%;
+width: 100%
 background-color: #FFFFFF;
 text-align: center;
 font: 1.2em Verdana, Arial, Helvetica, sans-serif;
@@ -20,18 +20,19 @@ font: 1.2em Verdana, Arial, Helvetica, sans-serif;
 
 a:link, a:visited {
 text-decoration: none;
-color: #004F8B;
-font-weight: bolder;
+color: #727272;
+font-weight: 600;
 }
 
 a:hover {
 text-decoration: none;
-color: #000000;
+color: #3266D6;
 }
 
 a:active {
 	text-decoration: none;
 }
+
 
 .noscreen {
 display: none;
@@ -60,16 +61,11 @@ overflow: hidden;
 }
 
 
-/* Images */
-
-
-
-/* Wrapper */
 
 #wrapper {
-width: 850px;
-margin: 60px auto 0 auto;
-padding-bottom: 90px;
+width: 100%;
+margin: 0px auto 0 auto;
+padding-bottom: 0px;
 text-align: left;
 }
 
@@ -87,7 +83,12 @@ width: 39em;
 .title-right { background: url('.img/title-right.gif') repeat-y 100% 0 }
 .title-bottom { background: url('.img/title-bottom.gif') repeat-x 0 100% }
 .title-top-left { background: url('.img/title-top-left.gif') no-repeat 0 0; }
-.title-top-right { background: url('.img/title-top-right.gif') no-repeat 100% 0; }
+.title-top-right { 
+	width: 1900px;
+margin: 0px auto 0 auto;
+padding-bottom: 90px;
+text-align: left;
+}
 .title-bottom-left { background: url('.img/title-bottom-left.gif') no-repeat 0 100%; }
 .title-bottom-right { background: url('.img/title-bottom-right.gif') no-repeat 100% 100%; }
 
@@ -99,8 +100,8 @@ padding-bottom: 12px;
 
 h1 {
 font: normal 2.0em Arial, "Source Sans Pro", Sans serif;
-color: #000000;
-font-weight: light;
+color: #727272;
+font-weight: 600;
 padding-top: 25px;
 margin-left: 20px;
 }
@@ -122,12 +123,26 @@ background: url('.img/h2-bg.gif') no-repeat 0 53%;
 padding-left: 25px;
 margin-bottom: 7px;
 }
-
+p {
+font-family: "Open Sans Light";
+font-size: 15px;
+font-weight: 300;
+}
+/* Boxing*/
+box1 {
+    background: #F4F4F4 none repeat scroll 0% 0%;
+    display: inline-block;
+    float: left;
+        text-align: center;
+    padding: 22px 0px;
+    width: 10.3333%;
+}
 
 /* Menu */
 
 ul.menu {
 list-style-type: none;
+position: relative;
 }
 
 ul.menu li {
@@ -243,4 +258,5 @@ margin-right: 40px;
 font-weight: normal;
 color: #626262;
 }
+
 
