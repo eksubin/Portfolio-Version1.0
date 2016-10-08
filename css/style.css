@@ -9,10 +9,10 @@
 
 * { margin: 0; padding: 0; }
 
-html { height: 100%; font-size: 62.5% }
+html { height: 100%;width: 100%; font-size: 62.5% }
 body {
 height: 100%;
-width: 100%
+width: 100%;
 background-color: #FFFFFF;
 text-align: center;
 font: 1.2em Verdana, Arial, Helvetica, sans-serif;
@@ -87,6 +87,7 @@ width: 39em;
 	width: 1900px;
 margin: 0px auto 0 auto;
 padding-bottom: 90px;
+position: relative;
 text-align: left;
 }
 .title-bottom-left { background: url('.img/title-bottom-left.gif') no-repeat 0 100%; }
@@ -138,6 +139,7 @@ font-weight: 300;
 margin: 0px auto 1.5em;
 max-width: 800px;
 }
+
 /* Boxing*/
 box1 {
     background: #F4F4F4 none repeat scroll 0% 0%;
