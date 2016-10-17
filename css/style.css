@@ -64,6 +64,7 @@ overflow: hidden;
 
 #wrapper {
 width: 100%;
+background : #F4F4F4 ;
 margin: 0px auto 0 auto;
 padding-bottom: 0px;
 text-align: left;
@@ -95,7 +96,6 @@ text-align: left;
 
 .title p {
 color: #FFFFFF;
-margin: 4px 0 0 21px;
 padding-bottom: 12px;
 }
 
@@ -142,12 +142,14 @@ max-width: 800px;
 
 /* Boxing*/
 box1 {
+
     background: #F4F4F4 none repeat scroll 0% 0%;
     display: inline-block;
-    float: left;
+    float: center;
         text-align: center;
     padding: 22px 0px;
-    width: 10.3333%;
+    width: 14%;
+    margin : 0%;
 }
 
 /* Menu */
@@ -209,7 +211,7 @@ width: 650px;
 
 .box-top {
 background: url('.img/box-top.gif') no-repeat 0 0;
-height: 12px;
+height: 2%;
 }
 
 .box {
