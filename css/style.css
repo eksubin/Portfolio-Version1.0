@@ -280,4 +280,9 @@ font-weight: normal;
 color: #626262;
 }
 
+.container {
+    width: 100%;
+    height: 100%
+
+}
 
